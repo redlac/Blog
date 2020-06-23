@@ -16,7 +16,6 @@ class Index extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="My projects & posts" />
         <Bio />
-        <Projects />
         <Posts />
       </Layout>
     )
